@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #585555;
+}
+
+.car-top {
+    width: 400px;
+    height: 80px;
+    margin: 30px auto -40px;
+    background: #000;
+    border-radius: 300px 300% 0 0;
+
+}
+
+.car-bottom {
+    width: 600px;
+    height: 150px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 70% 130% 50px 60px;
+    display: flex;
+    gap:250px;
+    position: relative;
+}

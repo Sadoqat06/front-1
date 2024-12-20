@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #EEEFF1;
+    height: 100vh;
+    padding-top: 57px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 42px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    color: #34547A;
+}
+
+.showcase {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    margin-top: 162px;
+}
+
+.showcase .right h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.showcase .right p {
+    margin: 60px 0;
+    color: #727272;
+}
+
+button {
+    background: #34547A;
+    width: 225px;
+    height: 65px;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.aboutme {
+    padding: 119px 0 100px;
+}
+
+.aboutme h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.aboutme p {
+    max-width: 540px;
+    text-align: center;
+    margin: 50px auto 0;
+    color: #727272;
+}
+
+.projects {
+    padding: 100px 0;
+    background: #34547A;
+}
+.projects .container{
+    display: flex;
+    justify-content: center;
+}
+
+.projets-cards {
+    display: flex;
+    gap: 49px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+}
+
+.skills {
+    padding: 101px 0;
+}
+
+.skills .container {
+    display: flex;
+}
+
+.skills .left,
+.skills .right {
+    width: 50%;
+}
+
+
+.skills .right img {
+    width: 100%;
+}
+
+.skills .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-line {
+    position: relative;
+}
+
+.skills-line-gray {
+    width: 70%;
+    height: 4px;
+    background: #C4C4C4;
+}
+
+.skills-line-blue {
+    width: 50%;
+    height: 4px;
+    background: #34547A;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skills-block {
+    margin-bottom: 30px;
+}
+
+.skills-block p {
+    margin-bottom: 20px;
+    color: #727272;
+}
+
+.left h3 {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.job {
+    background: #EEEFF1;
+    padding: 100px 0;
+}
+
+.job .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.job .text {
+    max-width: 540px;
+    text-align: center;
+}
+
+.job .text h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.job .text p {
+    color: #727272;
+}
+
+.job-image,  
+.job-image img:nth-child(1){ 
+    width: 100%; 
+} 
+ 
+.job-image { 
+    position: relative; 
+    margin-top: 57px;
+} 
+ 
+.job-image img:nth-child(2) { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.gallary {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallary .gallary-item {
+    width: 25%;
+    position: relative;
+}
+
+.gallary .gallary-item > img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallary-item-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #34547A;
+    opacity: 0.8;
+}
+
+.gallary-item:hover .gallary-item-bg {
+    display: flex;
+    cursor: pointer;
+}
+
+.microsoft {
+    padding: 72px 0 100px;
+}
+
+.microsoft .container {
+    display: flex;
+    gap: 30px;
+}
+
+.microsoft-image img {
+    width: 100%;
+}
+
+.website {
+    background: #EEEFF1;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.website p {
+    width: 540px;
+    color: #727272;
+    padding: 50px 0 65px;
+}
+
+.website .container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+form .input-group {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+form .input-group input , textarea {
+    padding: 17px 20px;
+    background: #fff;
+    border: transparent;
+    outline: none;
+}
+
+textarea {
+    max-width: 540px;
+    width: 100%;
+}
+
+.website button {
+    padding: 20px 19px;
+    font-size: 14px;
+    background: #34547A;
+    margin: 50px 0 0 0;
+}
+
+footer {
+    background: #34547A;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
